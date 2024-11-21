@@ -15,7 +15,6 @@ pipeline {
                     credentialsId: '3338ef97-97e2-48cf-92d4-b2318012413b'
             }
         }
-
         // Restore packages
         stage('Restore Packages') {
             steps {
